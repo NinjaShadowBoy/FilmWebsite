@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film Carousel with Cards</title>
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Alex Moov Hub modified</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="text2.svg" alt="Logo" height="50" class="mr-2" />Moov Hub
+        </a>
+        <form id="year" class="form-inline ml-auto search-bar">
+          <input
+            id="ysearch"
+            type="number"
+            class="form-control mr-2"
+            placeholder="Year of release"
+          />
+        </form>
+      </div>
+    </nav>
+
+
+    <main id="main" class="container">
+      <div class="row" id="movies-container">
+
+      </div>
+
+      <nav aria-label="Page navigation" class="mt-4">
+        <ul class="pagination">
+          <li class="page-item">
+            <button class="page-link" id="prev-page">Previous</button>
+          </li>
+          <li class="page-item">
+            <button class="page-link" id="next-page">Next</button>
+          </li>
+        </ul>
+      </nav>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
