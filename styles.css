@@ -1,8 +1,9 @@
 
+
       :root {
         --primary-color: red;
-        --secondary-color: #03346E;
-        --highlight-color: #FFC107;
+       --secondary-color: #03346E;
+        --highlight-color: #07ff13;
         --text-color: #FFFFFF;
         --card-bg-color: #f8f9fa;
         --card-text-color: #333;
